@@ -70,3 +70,4 @@ Screenshots are `.png`, roughly a 16:9 crop. Videos are `.mp4`.
 If a doc section ever gets renamed/added in `src/locales/*.json` (the `id` field under `docs.staff.sections` / `docs.student.sections`), the expected filename changes with it — the placeholder box always shows the current expected name, so check there if something stops showing up after an edit.
 
 The lookup logic itself is in `src/lib/media.ts`, and the fallback rendering is in `src/components/docs/MediaPlaceholder.tsx`.
+# centerflow-landing
