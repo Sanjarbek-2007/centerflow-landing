@@ -1,0 +1,457 @@
+{
+  "meta": {
+    "title": "CenterFlow — Run your education center in real time",
+    "description": "CenterFlow is a real-time management platform for education centers: attendance, homework, payments, groups and a gamified student app in one place."
+  },
+  "nav": {
+    "features": "Services",
+    "howItWorks": "How it works",
+    "pricing": "Pricing",
+    "docs": "Docs",
+    "contact": "Contact",
+    "start": "Start Using It",
+    "openApp": "Open Study Center app",
+    "openStudentApp": "Open Student app"
+  },
+  "hero": {
+    "eyebrow": "Education center management platform",
+    "titleLine1": "Your whole center,",
+    "titleLine2": "running in real time.",
+    "subtitle": "Students, groups, attendance, homework, payments and your team — synced live between your staff app and a student app your learners actually enjoy opening.",
+    "ctaPrimary": "Start Using It",
+    "ctaSecondary": "See pricing",
+    "badgeStaff": "Study Center app",
+    "badgeStudent": "Student app",
+    "liveLabel": "Live",
+    "stat1Value": "Real-time", "stat1Label": "attendance & chat",
+    "stat2Value": "3", "stat2Label": "languages: EN / RU / UZ",
+    "stat3Value": "2", "stat3Label": "apps, one center"
+  },
+  "apps": {
+    "eyebrow": "Two apps. One live center.",
+    "title": "Built for both sides of the classroom.",
+    "subtitle": "Your staff run the center from one app. Your students live inside another — playful, gamified, and always in sync with what happens in class.",
+    "staff": {
+      "tag": "For admins & tutors",
+      "title": "Study Center app",
+      "desc": "The command center for owners, admins and tutors — students, groups, schedules, payments and your whole team in one dashboard.",
+      "points": [
+        "Add students, group them by section and assign tutors in minutes",
+        "Take attendance and grade homework straight from the lesson page",
+        "Track payments, payroll and invoices with sequential, auditable IDs",
+        "Granular See / Manage permissions for every role on your team"
+      ],
+      "cta": "Open Study Center app"
+    },
+    "student": {
+      "tag": "For students & parents",
+      "title": "Student app",
+      "desc": "A gamified home for every learner — lessons, homework, XP, streaks and a leaderboard that makes showing up feel good.",
+      "points": [
+        "See today's and upcoming lessons the moment they're scheduled",
+        "Submit homework and track discipline / homework / activity marks",
+        "Chat with tutors and the group, get real photos, not placeholders",
+        "Climb the leaderboard, earn XP and unlock achievements"
+      ],
+      "cta": "Open Student app"
+    }
+  },
+  "features": {
+    "eyebrow": "Everything included",
+    "title": "One platform, every part of running a center.",
+    "subtitle": "No add-ons to hunt down. Every plan starts with the whole toolkit — attendance, grading, payments, chat and more, live across both apps.",
+    "items": [
+      { "title": "Real-time attendance", "desc": "Present / Late / Absent / Excused tracked per lesson, synced instantly to the student and parent view — no more false 0% attendance." },
+      { "title": "Homework & grading engine", "desc": "Discipline, homework and activity marks roll up into a fair, per-lesson leaderboard, awarded only when a lesson closes." },
+      { "title": "Lesson scheduling", "desc": "Lessons are materialized automatically, with per-day overrides for holidays, substitutions and one-off changes." },
+      { "title": "Groups & courses", "desc": "Group students by section, assign a tutor and a course, and manage capacity without spreadsheets." },
+      { "title": "Team & permissions", "desc": "Every section splits into See and Manage — give a tutor visibility without handing over control." },
+      { "title": "Payments & invoicing", "desc": "Invoices follow real module and lesson-count boundaries, with sequential type-prefixed IDs (INV-, PAY-, WD-)." },
+      { "title": "Real-time chat", "desc": "Direct messages, group chat and lesson-scoped announcements, with real profile photos on both apps." },
+      { "title": "Materials library", "desc": "Hierarchical folders with search, so every group finds the right file without a scavenger hunt." },
+      { "title": "Certificates", "desc": "Design and issue certificate templates tied to your own courses and achievements." },
+      { "title": "Extra lessons", "desc": "Students request extra help, tutors accept or decline, with a clean main-teacher referral workflow." },
+      { "title": "Leaderboard & XP", "desc": "A fair, gamified ranking system that keeps students coming back — without turning grading into a popularity contest." },
+      { "title": "Device & security controls", "desc": "Kick or ban risky devices, VPN / geo risk scoring and bot protection on every sign-up." }
+    ]
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "From empty center to running live in an afternoon.",
+    "subtitle": "No migrations, no consultants. Register, invite your team, and start teaching.",
+    "steps": [
+      { "title": "Create your center", "desc": "Register as an owner, name your center, and choose your language — English, Russian or Uzbek." },
+      { "title": "Add students & team", "desc": "Import or add students one by one, then invite tutors and admins with a join code." },
+      { "title": "Group & schedule", "desc": "Group students by section, assign courses and tutors, and let CenterFlow materialize the lesson calendar." },
+      { "title": "Run lessons live", "desc": "Take attendance, grade homework and post lesson announcements straight from the lesson page." },
+      { "title": "Get paid", "desc": "Invoices generate automatically from real lesson counts — no manual calendar-month guesswork." }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "Start free. Scale when you're ready.",
+    "subtitle": "Every plan includes the full feature set — pricing scales with how much of the center you're running, not which tools you're allowed to use.",
+    "billingNote": "Billed monthly per active student. No setup fees, no contracts.",
+    "plans": {
+      "freemium": {
+        "name": "Freemium",
+        "price": "0",
+        "priceUnit": "UZS",
+        "period": "forever",
+        "tagline": "For small centers getting started.",
+        "features": [
+          "Up to 50 students",
+          "Up to 4 groups",
+          "Up to 3 team members (plus you)",
+          "Full attendance, homework & grading engine",
+          "Student app included, for every student",
+          "Real-time chat & announcements"
+        ],
+        "cta": "Start for free",
+        "badge": ""
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "6,000",
+        "priceUnit": "UZS",
+        "period": "per student / month",
+        "tagline": "Extended use — no caps, for growing centers.",
+        "features": [
+          "Unlimited students, groups & team members",
+          "Everything in Freemium",
+          "Payments, payroll & invoicing",
+          "Materials library & certificates",
+          "Extra lessons & device security controls",
+          "Priority support"
+        ],
+        "cta": "Talk to us about Pro",
+        "badge": "Most popular"
+      },
+      "proplus": {
+        "name": "Pro+",
+        "price": "",
+        "priceUnit": "",
+        "period": "coming soon",
+        "tagline": "Everything in Pro, plus AI-assisted insights.",
+        "features": [
+          "AI lesson & homework feedback",
+          "Automated progress reports for parents",
+          "Smart scheduling suggestions",
+          "Early access to new features"
+        ],
+        "cta": "Notify me",
+        "badge": "Coming soon"
+      }
+    },
+    "limitsNote": "Freemium limits are visible any time in your center's control panel.",
+    "faqTitle": "Common questions",
+    "faq": [
+      { "q": "What happens if I outgrow Freemium?", "a": "You'll see your usage against the Freemium limits in your control panel before you hit them. Upgrading to Pro removes every cap." },
+      { "q": "Is the student app extra?", "a": "No — the student app is included on every plan, for every student, from day one." },
+      { "q": "Can I change plans later?", "a": "Yes, you can move between plans at any time from your center settings." }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Let's talk",
+    "title": "See it running on your own center.",
+    "subtitle": "Leave your phone number and we'll reach out to set up a walkthrough — no pressure, no spam.",
+    "form": {
+      "name": "Your name",
+      "namePlaceholder": "e.g. Aziz Karimov",
+      "phone": "Phone number",
+      "phonePlaceholder": "+998 90 123 45 67",
+      "message": "Message",
+      "messagePlaceholder": "Tell us a bit about your center (optional)",
+      "submit": "Request a walkthrough",
+      "sending": "Sending…",
+      "success": "Thanks! We've got your number and will reach out shortly.",
+      "error": "Something went wrong sending that — please try again, or message us directly."
+    },
+    "privacyNote": "We'll only use this to contact you about CenterFlow."
+  },
+  "footer": {
+    "tagline": "The real-time platform for modern education centers.",
+    "product": "Product",
+    "resources": "Resources",
+    "company": "Company",
+    "staffApp": "Study Center app",
+    "studentApp": "Student app",
+    "docsStaff": "Staff instructions",
+    "docsStudent": "Student instructions",
+    "language": "Language",
+    "rights": "All rights reserved.",
+    "domainsNote": "centerflow.comma.uz — landing · centerflow-app.comma.uz — study center · student-app.comma.uz — students"
+  },
+  "docs": {
+    "backHome": "Back to home",
+    "backHub": "All instructions",
+    "hub": {
+      "eyebrow": "Instructions",
+      "title": "Learn CenterFlow, step by step.",
+      "subtitle": "Pick your side — running the center, or learning inside it. Every guide is available in English, Russian and Uzbek.",
+      "staffCard": {
+        "title": "For Study Centers",
+        "desc": "Registration, adding students, inviting your team, grouping by section, scheduling, grading, payments and more.",
+        "cta": "Open staff instructions"
+      },
+      "studentCard": {
+        "title": "For Students",
+        "desc": "Registering with your center's code, checking your schedule, submitting homework, chatting and climbing the leaderboard.",
+        "cta": "Open student instructions"
+      },
+      "videoNote": "Look out for the video icon — a few short screen recordings are sprinkled through the longer guides."
+    },
+    "common": {
+      "tableOfContents": "On this page",
+      "openInApp": "Open this screen in the app",
+      "screenshotLabel": "Screenshot",
+      "videoLabel": "Video walkthrough",
+      "mediaComingSoon": "Image coming soon",
+      "videoComingSoon": "Video coming soon",
+      "stepsLabel": "Steps"
+    },
+    "staff": {
+      "eyebrow": "Staff instructions",
+      "title": "Running your center on CenterFlow",
+      "subtitle": "Everything an owner, admin or tutor needs — from creating the center to getting paid.",
+      "sections": [
+        {
+          "id": "getting-started",
+          "title": "1. Create your center & sign in",
+          "summary": "Register your center as the owner and pick the language your team will see.",
+          "steps": [
+            "Go to centerflow-app.comma.uz and choose “Create a center”.",
+            "Enter your center's name, your phone number, and set a password.",
+            "Confirm the code sent to your phone to verify your account.",
+            "Pick your center's default language — you can change it any time in Settings.",
+            "You're now signed in as the owner, with full Admin access."
+          ],
+          "deepLink": "/register",
+          "deepLinkLabel": "Open registration",
+          "video": true
+        },
+        {
+          "id": "add-students",
+          "title": "2. Add students",
+          "summary": "Add students one by one, or invite them to self-register with a code.",
+          "steps": [
+            "Open Students from the sidebar and click “Add student”.",
+            "Fill in their name, contact details, and (optionally) a parent's phone number.",
+            "Upload a photo, or leave the default avatar — students can add their own photo later.",
+            "Assign them to a group now, or leave it for later and group them in bulk.",
+            "Repeat, or generate an invite code so parents can register students themselves."
+          ],
+          "deepLink": "/students",
+          "deepLinkLabel": "Open Students",
+          "video": false
+        },
+        {
+          "id": "invite-team",
+          "title": "3. Invite your team",
+          "summary": "Bring in tutors and admins with a join code — no manual account creation.",
+          "steps": [
+            "Open Team and click “Invite member”.",
+            "Choose their role: Admin, Tutor, or Support tutor.",
+            "Share the generated join code or link with them directly.",
+            "They register at centerflow-app.comma.uz and enter the code to join your center.",
+            "Fine-tune exactly what they can See and what they can Manage under each permission section."
+          ],
+          "deepLink": "/team",
+          "deepLinkLabel": "Open Team",
+          "video": false
+        },
+        {
+          "id": "group-by-section",
+          "title": "4. Group students by section",
+          "summary": "Organize students into groups, tied to a course and a tutor.",
+          "steps": [
+            "Open Courses and create a course if you haven't already (e.g. “IELTS Intermediate”).",
+            "Open Groups and click “Create group” — give it a name (e.g. “IELTS Int. — Tue/Thu”).",
+            "Assign the course, the tutor, and a room or time slot.",
+            "Add students to the group from the roster, or drag them in from Students.",
+            "Repeat for every section — a student can belong to more than one group."
+          ],
+          "deepLink": "/groups",
+          "deepLinkLabel": "Open Groups",
+          "video": false
+        },
+        {
+          "id": "schedule-lessons",
+          "title": "5. Build the schedule",
+          "summary": "CenterFlow materializes lessons automatically from your group's weekly pattern.",
+          "steps": [
+            "Open Schedule and set the weekly pattern for each group (days, time, room).",
+            "Lessons are generated automatically, several weeks ahead, and kept in sync.",
+            "Need a one-off change? Open Lessons and override a single day — holiday, substitution, or reschedule.",
+            "Every override is scoped to that day only; the regular weekly pattern resumes after."
+          ],
+          "deepLink": "/schedule",
+          "deepLinkLabel": "Open Schedule",
+          "video": false
+        },
+        {
+          "id": "run-lessons",
+          "title": "6. Run a lesson: attendance & grading",
+          "summary": "Everything for a live lesson happens on one page.",
+          "steps": [
+            "Open Lessons and select today's session.",
+            "Check in students as they arrive — attendance updates in real time on the student app.",
+            "Award discipline, homework and activity marks per student.",
+            "Post a lesson announcement or attach materials for the group.",
+            "Close the lesson when it ends — marks are only awarded to the leaderboard at close time, so it stays fair."
+          ],
+          "deepLink": "/lessons",
+          "deepLinkLabel": "Open Lessons",
+          "video": true
+        },
+        {
+          "id": "materials",
+          "title": "7. Share materials",
+          "summary": "Keep files organized in folders your team and students can actually search.",
+          "steps": [
+            "Open Materials and create a folder structure that matches your courses.",
+            "Upload files — documents, images, or links to external resources.",
+            "Attach materials to a specific lesson so students see them in context.",
+            "Use search to find a file instantly instead of digging through folders."
+          ],
+          "deepLink": "/materials",
+          "deepLinkLabel": "Open Materials",
+          "video": false
+        },
+        {
+          "id": "payments",
+          "title": "8. Payments & invoicing",
+          "summary": "Invoices follow real lesson counts, not the calendar month.",
+          "steps": [
+            "Open Payments to see the unified Transactions tab — every payment, invoice and withdrawal.",
+            "Invoices are generated automatically at real module / lesson-count boundaries, with a due date.",
+            "Record a payment against an invoice, or record an ad-hoc top-up.",
+            "Every transaction gets a sequential, type-prefixed ID (INV-, PAY-, TOPUP-, WD-) for clean bookkeeping.",
+            "Open Payroll to review what's owed to each tutor for the period."
+          ],
+          "deepLink": "/payments",
+          "deepLinkLabel": "Open Payments",
+          "video": false
+        },
+        {
+          "id": "certificates",
+          "title": "9. Certificates",
+          "summary": "Design a certificate once, issue it to any student in seconds.",
+          "steps": [
+            "Open Certificates and create a template — add your center's branding and a course name.",
+            "Issue it to a student directly from their profile, or from a completed course.",
+            "Students see and can download their certificates from their own profile."
+          ],
+          "deepLink": "/certificates",
+          "deepLinkLabel": "Open Certificates",
+          "video": false
+        }
+      ]
+    },
+    "student": {
+      "eyebrow": "Student instructions",
+      "title": "Using CenterFlow as a student",
+      "subtitle": "Everything you need to check your schedule, do homework, and see how you're doing.",
+      "sections": [
+        {
+          "id": "getting-started",
+          "title": "1. Join your center",
+          "summary": "Your center's staff will give you a join code or add you directly.",
+          "steps": [
+            "Go to student-app.comma.uz.",
+            "If you have a join code from your center, choose “Join with code” and enter it.",
+            "If a parent registered you already, sign in with the phone number they used.",
+            "Set your password after confirming the code sent to your phone.",
+            "Pick your avatar and language — English, Russian or Uzbek."
+          ],
+          "deepLink": "",
+          "deepLinkLabel": "Open Student app",
+          "video": true
+        },
+        {
+          "id": "home-tab",
+          "title": "2. Your Home tab",
+          "summary": "Home shows what matters today, at a glance.",
+          "steps": [
+            "See today's and upcoming lessons the moment your center schedules them.",
+            "Check your attendance rate — Present / Late / Absent / Excused, not guesswork.",
+            "See recent announcements from your tutors and your center.",
+            "Tap any lesson card to open its full details."
+          ],
+          "deepLink": "",
+          "deepLinkLabel": "Open Student app",
+          "video": false
+        },
+        {
+          "id": "learn-lessons",
+          "title": "3. Lessons in the Learn tab",
+          "summary": "Every past and upcoming lesson, with topic, plan and materials.",
+          "steps": [
+            "Open the Learn tab and select Lessons.",
+            "Tap a lesson to see its topic, plan, and any attached materials.",
+            "Past lessons show your attendance and the marks you were awarded.",
+            "Look for lesson-scoped announcements posted by your tutor."
+          ],
+          "deepLink": "",
+          "deepLinkLabel": "Open Student app",
+          "video": false
+        },
+        {
+          "id": "homework",
+          "title": "4. Submitting homework",
+          "summary": "Submit your work and track discipline, homework and activity marks.",
+          "steps": [
+            "Open Learn → Homework to see everything assigned to you.",
+            "Attach your answer — text, an image, or a file.",
+            "Submit before the lesson closes; marks are awarded once your tutor closes the lesson.",
+            "Check back to see your marks and how they affect your leaderboard position."
+          ],
+          "deepLink": "",
+          "deepLinkLabel": "Open Student app",
+          "video": true
+        },
+        {
+          "id": "extra-lessons",
+          "title": "5. Requesting extra lessons",
+          "summary": "Need extra help? Request a session directly.",
+          "steps": [
+            "Open Learn → Extra lessons.",
+            "Pick a tutor and a time, and send your request.",
+            "Your main teacher can refer you to a support tutor if that's a better fit.",
+            "You'll be notified the moment the tutor accepts or declines."
+          ],
+          "deepLink": "",
+          "deepLinkLabel": "Open Student app",
+          "video": false
+        },
+        {
+          "id": "messages",
+          "title": "6. Chat & announcements",
+          "summary": "Message your tutors and your group directly.",
+          "steps": [
+            "Open the Messages tab to see your conversations.",
+            "Message a tutor directly, or post in your group chat.",
+            "Center-wide announcements and lesson-specific posts show up automatically."
+          ],
+          "deepLink": "",
+          "deepLinkLabel": "Open Student app",
+          "video": false
+        },
+        {
+          "id": "profile-leaderboard",
+          "title": "7. Profile, XP & the leaderboard",
+          "summary": "Track your progress and see how you rank.",
+          "steps": [
+            "Open Profile to see your bio, achievements and any certificates you've earned.",
+            "Every discipline, homework and activity mark contributes fairly to your XP.",
+            "Open the leaderboard from Home to see your group and center-wide ranking.",
+            "Marks are only awarded once a lesson closes, so the ranking stays fair for everyone."
+          ],
+          "deepLink": "",
+          "deepLinkLabel": "Open Student app",
+          "video": false
+        }
+      ]
+    }
+  }
+}

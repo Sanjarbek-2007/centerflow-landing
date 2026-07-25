@@ -1,0 +1,166 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Inter", "Segoe UI", system-ui, sans-serif;
+
+  --color-ink-950: #f8fafb;
+  --color-ink-900: #eff3f4;
+  --color-ink-850: #e6ecee;
+  --color-ink-800: #dde5e7;
+  --color-ink-700: #c7d2d6;
+  --color-ink-600: #a3b4bb;
+  --color-ink-500: #7c939d;
+  --color-ink-400: #56707c;
+  --color-ink-300: #3a5560;
+  --color-ink-200: #223640;
+  --color-ink-100: #16232a;
+  --color-ink-50: #0b1418;
+
+  --color-brand-950: #051617;
+  --color-brand-900: #0a2224;
+  --color-brand-800: #0d2f32;
+  --color-brand-700: #14515d;
+  --color-brand-600: #1a6570;
+  --color-brand-500: #2f8084;
+  --color-brand-400: #3fa39c;
+  --color-brand-300: #5dcdbc;
+  --color-brand-200: #93e3d3;
+  --color-brand-100: #c8f3e8;
+  --color-brand-50: #eafbf6;
+
+  --color-amber-950: #341602;
+  --color-amber-900: #5c2705;
+  --color-amber-800: #8a3c0b;
+  --color-amber-700: #b85312;
+  --color-amber-600: #d87724;
+  --color-amber-500: #e68832;
+  --color-amber-400: #ed923b;
+  --color-amber-300: #f3ab63;
+  --color-amber-200: #f8c894;
+  --color-amber-100: #fce4c9;
+
+  --shadow-glow-brand: 0 0 60px -12px rgba(93, 205, 188, 0.35);
+  --shadow-glow-amber: 0 0 60px -12px rgba(237, 146, 59, 0.35);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-ink-950);
+  color: var(--color-ink-100);
+  font-family: var(--font-display);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: rgba(93, 205, 188, 0.35);
+  color: #0b1418;
+}
+
+/* ---------- Ambient background ---------- */
+
+@keyframes driftA {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(4%, -6%) scale(1.08); }
+  66% { transform: translate(-3%, 4%) scale(0.96); }
+}
+
+@keyframes driftB {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  40% { transform: translate(-5%, 5%) scale(1.05); }
+  70% { transform: translate(4%, -3%) scale(0.94); }
+}
+
+.blob-drift-a {
+  animation: driftA 22s ease-in-out infinite;
+}
+
+.blob-drift-b {
+  animation: driftB 26s ease-in-out infinite;
+}
+
+@keyframes gridPan {
+  0% { background-position: 0 0; }
+  100% { background-position: 64px 64px; }
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(20, 81, 93, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(20, 81, 93, 0.06) 1px, transparent 1px);
+  background-size: 64px 64px;
+  animation: gridPan 40s linear infinite;
+}
+
+/* ---------- Flow line connecting center <-> student ---------- */
+
+@keyframes dashFlow {
+  to { stroke-dashoffset: -200; }
+}
+
+.flow-path {
+  stroke-dasharray: 6 10;
+  animation: dashFlow 6s linear infinite;
+}
+
+@keyframes pulseDot {
+  0%, 100% { opacity: 0.3; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.15); }
+}
+
+.pulse-dot {
+  animation: pulseDot 2.4s ease-in-out infinite;
+}
+
+/* ---------- Marquee (feature strip) ---------- */
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 32s linear infinite;
+}
+
+/* ---------- Utility: card sheen on hover ---------- */
+
+.sheen {
+  position: relative;
+  overflow: hidden;
+}
+
+.sheen::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(115deg, transparent 30%, rgba(20, 81, 93, 0.06) 45%, transparent 60%);
+  transform: translateX(-120%);
+  transition: transform 0.9s ease;
+}
+
+.sheen:hover::after {
+  transform: translateX(120%);
+}
+
+/* ---------- Scrollbar ---------- */
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-ink-950);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b9c6cb;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #99abb2;
+}

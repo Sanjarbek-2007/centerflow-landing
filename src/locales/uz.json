@@ -1,0 +1,457 @@
+{
+  "meta": {
+    "title": "CenterFlow — o'quv markazingizni real vaqtda boshqaring",
+    "description": "CenterFlow — o'quv markazlar uchun real vaqtli boshqaruv platformasi: davomat, uyga vazifalar, to'lovlar, guruhlar va o'quvchilar uchun o'yinlashtirilgan ilova bir joyda."
+  },
+  "nav": {
+    "features": "Xizmatlar",
+    "howItWorks": "Qanday ishlaydi",
+    "pricing": "Narxlar",
+    "docs": "Qo'llanma",
+    "contact": "Aloqa",
+    "start": "Foydalanishni boshlash",
+    "openApp": "Markaz ilovasini ochish",
+    "openStudentApp": "O'quvchi ilovasini ochish"
+  },
+  "hero": {
+    "eyebrow": "O'quv markazlarni boshqarish platformasi",
+    "titleLine1": "Butun markazingiz",
+    "titleLine2": "real vaqtda ishlaydi.",
+    "subtitle": "O'quvchilar, guruhlar, davomat, uyga vazifalar, to'lovlar va jamoangiz — xodimlar ilovasi bilan o'quvchilar sevib ochadigan ilova o'rtasida jonli sinxronlashtirilgan.",
+    "ctaPrimary": "Foydalanishni boshlash",
+    "ctaSecondary": "Narxlarni ko'rish",
+    "badgeStaff": "Markaz ilovasi",
+    "badgeStudent": "O'quvchi ilovasi",
+    "liveLabel": "Jonli",
+    "stat1Value": "Real vaqt", "stat1Label": "davomat va chat",
+    "stat2Value": "3", "stat2Label": "til: EN / RU / UZ",
+    "stat3Value": "2", "stat3Label": "ilova, bitta markaz"
+  },
+  "apps": {
+    "eyebrow": "Ikki ilova. Bitta jonli markaz.",
+    "title": "Dars jarayonining ikkala tomoni uchun yaratilgan.",
+    "subtitle": "Xodimlaringiz markazni bitta ilova orqali boshqaradi. O'quvchilaringiz esa boshqasida yashaydi — qiziqarli, o'yinlashtirilgan va darsda nima bo'layotgani bilan doim sinxron.",
+    "staff": {
+      "tag": "Administrator va o'qituvchilar uchun",
+      "title": "O'quv markazi ilovasi",
+      "desc": "Egalar, administratorlar va o'qituvchilar uchun boshqaruv markazi — o'quvchilar, guruhlar, jadval, to'lovlar va butun jamoangiz bitta panelda.",
+      "points": [
+        "O'quvchilarni qo'shing, ularni yo'nalish bo'yicha guruhlang va bir necha daqiqada o'qituvchi biriktiring",
+        "Davomatni belgilang va uyga vazifalarni to'g'ridan-to'g'ri dars sahifasidan baholang",
+        "To'lovlar, ish haqi va hisob-fakturalarni ketma-ket, tekshiriladigan ID'lar bilan kuzating",
+        "Jamoangizdagi har bir rol uchun \"Ko'rish\" va \"Boshqarish\" huquqlarini alohida sozlang"
+      ],
+      "cta": "Markaz ilovasini ochish"
+    },
+    "student": {
+      "tag": "O'quvchilar va ota-onalar uchun",
+      "title": "O'quvchi ilovasi",
+      "desc": "Har bir o'quvchi uchun o'yinlashtirilgan makon — darslar, uyga vazifalar, XP, ketma-ket kelish seriyasi va davomat his-tuyg'usini yaxshi qiladigan reyting.",
+      "points": [
+        "Bugungi va kelgusi darslarni jadvalga qo'shilishi bilanoq ko'ring",
+        "Uyga vazifalarni topshiring va intizom / uyga vazifa / faollik baholarini kuzating",
+        "O'qituvchi va guruh bilan suhbatlashing — soxta rasm emas, haqiqiy fotosuratlar bilan",
+        "Reytingda ko'tariling, XP to'plang va yutuqlarni oching"
+      ],
+      "cta": "O'quvchi ilovasini ochish"
+    }
+  },
+  "features": {
+    "eyebrow": "Hammasi kiritilgan",
+    "title": "Bitta platforma — markazni boshqarishning har bir qismi.",
+    "subtitle": "Qo'shimcha modullarni izlashga hojat yo'q. Har bir tarif to'liq vositalar to'plami bilan boshlanadi — davomat, baholash, to'lovlar, chat va boshqalar, ikkala ilovada ham real vaqtda.",
+    "items": [
+      { "title": "Real vaqtdagi davomat", "desc": "Keldi / Kechikdi / Kelmadi / Sababli — har bir darsda qayd etiladi va o'quvchi hamda ota-onaga zudlik bilan ko'rinadi. Endi noto'g'ri 0% davomat yo'q." },
+      { "title": "Baholash va uyga vazifa tizimi", "desc": "Intizom, uyga vazifa va faollik baholari har bir dars uchun adolatli reytingga qo'shiladi va faqat dars yakunlanganda beriladi." },
+      { "title": "Darslar jadvali", "desc": "Darslar avtomatik tarzda yaratiladi, bayram, almashtiruvchi o'qituvchi yoki bir martalik o'zgarish uchun alohida kunni tahrirlash imkoni bilan." },
+      { "title": "Guruhlar va kurslar", "desc": "O'quvchilarni yo'nalish bo'yicha guruhlang, o'qituvchi va kurs biriktiring, sig'imni jadvalsiz boshqaring." },
+      { "title": "Jamoa va huquqlar", "desc": "Har bir bo'lim \"Ko'rish\" va \"Boshqarish\"ga bo'linadi — o'qituvchiga nazoratni bermay ko'rish imkonini bering." },
+      { "title": "To'lovlar va hisob-fakturalar", "desc": "Hisob-fakturalar haqiqiy modul va darslar soni chegaralariga asoslanadi, turkumga oid ketma-ket ID'lar bilan (INV-, PAY-, WD-)." },
+      { "title": "Real vaqtdagi chat", "desc": "Shaxsiy xabarlar, guruh chatlari va darsga oid e'lonlar — ikkala ilovada ham haqiqiy profil fotosuratlari bilan." },
+      { "title": "Materiallar kutubxonasi", "desc": "Ierarxik papkalar va qidiruv — har bir guruh kerakli faylni uzoq izlamasdan topadi." },
+      { "title": "Sertifikatlar", "desc": "O'z kurslaringiz va yutuqlaringizga bog'liq sertifikat shablonlarini yarating va bering." },
+      { "title": "Qo'shimcha darslar", "desc": "O'quvchilar qo'shimcha yordam so'raydi, o'qituvchilar qabul qiladi yoki rad etadi — asosiy o'qituvchidan aniq yo'naltirish tizimi bilan." },
+      { "title": "Reyting va XP", "desc": "O'quvchilarni qayta-qayta qaytarib keladigan adolatli o'yinlashtirilgan reyting tizimi — baholashni mashhurlik musobaqasiga aylantirmasdan." },
+      { "title": "Qurilma va xavfsizlik nazorati", "desc": "Xavfli qurilmalarni chetlashtiring yoki bloklang, VPN/geolokatsiya xavf bahosi va har bir ro'yxatdan o'tishda botlardan himoya." }
+    ]
+  },
+  "how": {
+    "eyebrow": "Qanday ishlaydi",
+    "title": "Bo'sh markazdan bir kunda to'liq ishga tushishgacha.",
+    "subtitle": "Hech qanday ma'lumot ko'chirish yoki konsultant kerak emas. Ro'yxatdan o'ting, jamoangizni taklif qiling va dars berishni boshlang.",
+    "steps": [
+      { "title": "Markazingizni yarating", "desc": "Egasi sifatida ro'yxatdan o'ting, markazingiz nomini kiriting va tilni tanlang — ingliz, rus yoki o'zbek." },
+      { "title": "O'quvchi va jamoani qo'shing", "desc": "O'quvchilarni import qiling yoki birma-bir qo'shing, so'ng o'qituvchi va administratorlarni qo'shilish kodi orqali taklif qiling." },
+      { "title": "Guruhlang va jadval tuzing", "desc": "O'quvchilarni yo'nalish bo'yicha guruhlang, kurs va o'qituvchi biriktiring — CenterFlow darslar taqvimini o'zi yaratadi." },
+      { "title": "Darslarni jonli o'tkazing", "desc": "Davomatni belgilang, uyga vazifalarni baholang va dars e'lonlarini to'g'ridan-to'g'ri dars sahifasidan joylashtiring." },
+      { "title": "To'lovingizni oling", "desc": "Hisob-fakturalar haqiqiy darslar soniga asoslanib avtomatik yaratiladi — taqvim oyini qo'lda hisoblashga hojat yo'q." }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Narxlar",
+    "title": "Bepul boshlang. Tayyor bo'lganingizda kengaytiring.",
+    "subtitle": "Har bir tarif to'liq funksiyalar to'plamini o'z ichiga oladi — narx qaysi vositalardan foydalanish mumkinligiga emas, markazingiz qanchalik kattaligiga qarab o'sadi.",
+    "billingNote": "Har bir faol o'quvchi uchun oylik to'lov. Ulanish uchun to'lov yo'q, shartnoma yo'q.",
+    "plans": {
+      "freemium": {
+        "name": "Freemium",
+        "price": "0",
+        "priceUnit": "so'm",
+        "period": "doimiy",
+        "tagline": "Yangi boshlayotgan kichik markazlar uchun.",
+        "features": [
+          "50 tagacha o'quvchi",
+          "4 tagacha guruh",
+          "3 tagacha jamoa a'zosi (sizdan tashqari)",
+          "To'liq davomat, uyga vazifa va baholash tizimi",
+          "Har bir o'quvchi uchun ilova bepul kiritilgan",
+          "Real vaqtdagi chat va e'lonlar"
+        ],
+        "cta": "Bepul boshlash",
+        "badge": ""
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "6 000",
+        "priceUnit": "so'm",
+        "period": "o'quvchi / oyiga",
+        "tagline": "Kengaytirilgan foydalanish — cheklovlarsiz, o'sib borayotgan markazlar uchun.",
+        "features": [
+          "Cheksiz o'quvchi, guruh va jamoa a'zolari",
+          "Freemium'dagi barcha imkoniyatlar",
+          "To'lovlar, ish haqi va hisob-fakturalar",
+          "Materiallar kutubxonasi va sertifikatlar",
+          "Qo'shimcha darslar va qurilma xavfsizligi nazorati",
+          "Ustuvor qo'llab-quvvatlash"
+        ],
+        "cta": "Pro haqida gaplashish",
+        "badge": "Eng ommabop"
+      },
+      "proplus": {
+        "name": "Pro+",
+        "price": "",
+        "priceUnit": "",
+        "period": "tez orada",
+        "tagline": "Pro'dagi barcha imkoniyatlar, ustiga sun'iy intellekt tahlili.",
+        "features": [
+          "Sun'iy intellekt asosidagi dars va uyga vazifa fikr-mulohazasi",
+          "Ota-onalar uchun avtomatik rivojlanish hisobotlari",
+          "Aqlli jadval tavsiyalari",
+          "Yangi funksiyalarga erta kirish huquqi"
+        ],
+        "cta": "Menga xabar bering",
+        "badge": "Tez orada"
+      }
+    },
+    "limitsNote": "Freemium chegaralari markazingiz boshqaruv panelida istalgan vaqtda ko'rinadi.",
+    "faqTitle": "Ko'p beriladigan savollar",
+    "faq": [
+      { "q": "Freemium chegarasidan oshib ketsam nima bo'ladi?", "a": "Chegaraga yetishdan oldin boshqaruv panelida foydalanish hajmingizni ko'rasiz. Pro tarifiga o'tish barcha cheklovlarni olib tashlaydi." },
+      { "q": "O'quvchi ilovasi qo'shimcha to'lovmi?", "a": "Yo'q — o'quvchi ilovasi har qanday tarifda, har bir o'quvchi uchun, birinchi kundanoq bepul kiritilgan." },
+      { "q": "Keyinroq tarifni almashtirsam bo'ladimi?", "a": "Ha, markaz sozlamalaridan istalgan vaqtda tariflar orasida almashishingiz mumkin." }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Aloqaga chiqing",
+    "title": "O'z markazingizda qanday ishlashini ko'ring.",
+    "subtitle": "Telefon raqamingizni qoldiring — biz sizga bog'lanib, platformani ko'rsatamiz. Bosim yo'q, spam yo'q.",
+    "form": {
+      "name": "Ismingiz",
+      "namePlaceholder": "masalan, Aziz Karimov",
+      "phone": "Telefon raqami",
+      "phonePlaceholder": "+998 90 123 45 67",
+      "message": "Xabar",
+      "messagePlaceholder": "Markazingiz haqida qisqacha yozing (ixtiyoriy)",
+      "submit": "Namoyish so'rash",
+      "sending": "Yuborilmoqda…",
+      "success": "Rahmat! Raqamingizni qabul qildik va tez orada bog'lanamiz.",
+      "error": "Yuborishda xatolik yuz berdi — qayta urinib ko'ring yoki to'g'ridan-to'g'ri yozing."
+    },
+    "privacyNote": "Bu ma'lumotdan faqat CenterFlow haqida siz bilan bog'lanish uchun foydalanamiz."
+  },
+  "footer": {
+    "tagline": "Zamonaviy o'quv markazlar uchun real vaqtli platforma.",
+    "product": "Mahsulot",
+    "resources": "Manbalar",
+    "company": "Kompaniya",
+    "staffApp": "Markaz ilovasi",
+    "studentApp": "O'quvchi ilovasi",
+    "docsStaff": "Xodimlar uchun qo'llanma",
+    "docsStudent": "O'quvchilar uchun qo'llanma",
+    "language": "Til",
+    "rights": "Barcha huquqlar himoyalangan.",
+    "domainsNote": "centerflow.comma.uz — sayt · centerflow-app.comma.uz — o'quv markazi · student-app.comma.uz — o'quvchilar"
+  },
+  "docs": {
+    "backHome": "Bosh sahifaga",
+    "backHub": "Barcha qo'llanmalar",
+    "hub": {
+      "eyebrow": "Qo'llanma",
+      "title": "CenterFlow'ni qadam-baqadam o'rganing.",
+      "subtitle": "O'z tomoningizni tanlang — markazni boshqarish yoki unda o'qish. Har bir qo'llanma ingliz, rus va o'zbek tillarida mavjud.",
+      "staffCard": {
+        "title": "O'quv markazlari uchun",
+        "desc": "Ro'yxatdan o'tish, o'quvchi qo'shish, jamoani taklif qilish, yo'nalish bo'yicha guruhlash, jadval tuzish, baholash, to'lovlar va boshqalar.",
+        "cta": "Xodimlar qo'llanmasini ochish"
+      },
+      "studentCard": {
+        "title": "O'quvchilar uchun",
+        "desc": "Markazingiz kodi orqali ro'yxatdan o'tish, jadvalni tekshirish, uyga vazifa topshirish, chat va reytingda ko'tarilish.",
+        "cta": "O'quvchi qo'llanmasini ochish"
+      },
+      "videoNote": "Video belgisiga e'tibor bering — uzunroq qo'llanmalarda bir nechta qisqa ekran videolari uchraydi."
+    },
+    "common": {
+      "tableOfContents": "Ushbu sahifada",
+      "openInApp": "Ushbu ekranni ilovada ochish",
+      "screenshotLabel": "Skrinshot",
+      "videoLabel": "Video qo'llanma",
+      "mediaComingSoon": "Rasm tez orada qo'shiladi",
+      "videoComingSoon": "Video tez orada qo'shiladi",
+      "stepsLabel": "Qadamlar"
+    },
+    "staff": {
+      "eyebrow": "Xodimlar uchun qo'llanma",
+      "title": "Markazingizni CenterFlow'da boshqarish",
+      "subtitle": "Markaz egasi, administrator yoki o'qituvchiga kerak bo'lgan hamma narsa — markazni yaratishdan to to'lov olishgacha.",
+      "sections": [
+        {
+          "id": "getting-started",
+          "title": "1. Markazingizni yarating va tizimga kiring",
+          "summary": "Markazingizni ega sifatida ro'yxatdan o'tkazing va jamoangiz ko'radigan tilni tanlang.",
+          "steps": [
+            "centerflow-app.comma.uz saytiga o'ting va \"Markaz yaratish\"ni tanlang.",
+            "Markaz nomini, telefon raqamingizni kiriting va parol o'rnating.",
+            "Hisobingizni tasdiqlash uchun telefoningizga yuborilgan kodni kiriting.",
+            "Markazingiz uchun standart tilni tanlang — uni istalgan vaqtda Sozlamalarda o'zgartirishingiz mumkin.",
+            "Endi siz to'liq Administrator huquqiga ega ega sifatida tizimga kirdingiz."
+          ],
+          "deepLink": "/register",
+          "deepLinkLabel": "Ro'yxatdan o'tishni ochish",
+          "video": true
+        },
+        {
+          "id": "add-students",
+          "title": "2. O'quvchilarni qo'shing",
+          "summary": "O'quvchilarni birma-bir qo'shing yoki ularni kod orqali o'zlari ro'yxatdan o'tishga taklif qiling.",
+          "steps": [
+            "Yon menyudan \"O'quvchilar\"ni oching va \"O'quvchi qo'shish\"ni bosing.",
+            "Ismini, aloqa ma'lumotlarini va xohlasangiz ota-onaning telefon raqamini kiriting.",
+            "Rasm yuklang yoki standart avatarni qoldiring — o'quvchi keyinroq o'z rasmini qo'sha oladi.",
+            "Uni hozir guruhga biriktiring yoki keyinroq ommaviy tarzda guruhlang.",
+            "Takrorlang yoki ota-onalar o'quvchini o'zlari ro'yxatdan o'tkaza olishi uchun taklif kodi yarating."
+          ],
+          "deepLink": "/students",
+          "deepLinkLabel": "\"O'quvchilar\" bo'limini ochish",
+          "video": false
+        },
+        {
+          "id": "invite-team",
+          "title": "3. Jamoangizni taklif qiling",
+          "summary": "O'qituvchi va administratorlarni qo'shilish kodi orqali qo'shing — qo'lda hisob yaratmasdan.",
+          "steps": [
+            "\"Jamoa\" bo'limini oching va \"A'zo taklif qilish\"ni bosing.",
+            "Rolini tanlang: Administrator, O'qituvchi yoki Yordamchi o'qituvchi.",
+            "Yaratilgan qo'shilish kodi yoki havolasini to'g'ridan-to'g'ri yuboring.",
+            "Ular centerflow-app.comma.uz saytida ro'yxatdan o'tib, markazingizga qo'shilish uchun kodni kiritadi.",
+            "Har bir huquq bo'limida ular nimani \"Ko'rish\" va nimani \"Boshqarish\" mumkinligini aniq sozlang."
+          ],
+          "deepLink": "/team",
+          "deepLinkLabel": "\"Jamoa\" bo'limini ochish",
+          "video": false
+        },
+        {
+          "id": "group-by-section",
+          "title": "4. O'quvchilarni yo'nalish bo'yicha guruhlang",
+          "summary": "O'quvchilarni kurs va o'qituvchiga bog'langan guruhlarga bo'ling.",
+          "steps": [
+            "\"Kurslar\" bo'limini oching va agar hali qilmagan bo'lsangiz, kurs yarating (masalan, \"IELTS Intermediate\").",
+            "\"Guruhlar\" bo'limini oching va \"Guruh yaratish\"ni bosing — nom bering (masalan, \"IELTS Int. — Sesh/Pay\").",
+            "Kurs, o'qituvchi va xona yoki vaqt oralig'ini biriktiring.",
+            "O'quvchilarni ro'yxatdan guruhga qo'shing yoki \"O'quvchilar\" bo'limidan sudrab olib o'ting.",
+            "Har bir yo'nalish uchun takrorlang — o'quvchi bir nechta guruhga tegishli bo'lishi mumkin."
+          ],
+          "deepLink": "/groups",
+          "deepLinkLabel": "\"Guruhlar\" bo'limini ochish",
+          "video": false
+        },
+        {
+          "id": "schedule-lessons",
+          "title": "5. Jadvalni tuzing",
+          "summary": "CenterFlow guruhingizning haftalik namunasidan darslarni avtomatik yaratadi.",
+          "steps": [
+            "\"Jadval\" bo'limini oching va har bir guruh uchun haftalik namunani belgilang (kunlar, vaqt, xona).",
+            "Darslar avtomatik ravishda bir necha hafta oldinga yaratiladi va sinxron holatda saqlanadi.",
+            "Bir martalik o'zgarish kerakmi? \"Darslar\" bo'limini oching va bitta kunni o'zgartiring — bayram, almashtiruvchi o'qituvchi yoki ko'chirish.",
+            "Har bir o'zgarish faqat o'sha kunga tegishli; oddiy haftalik namuna keyin davom etadi."
+          ],
+          "deepLink": "/schedule",
+          "deepLinkLabel": "\"Jadval\" bo'limini ochish",
+          "video": false
+        },
+        {
+          "id": "run-lessons",
+          "title": "6. Darsni o'tkazish: davomat va baholash",
+          "summary": "Jonli dars uchun kerakli hamma narsa bitta sahifada.",
+          "steps": [
+            "\"Darslar\" bo'limini oching va bugungi darsni tanlang.",
+            "O'quvchilar kelgan sari ularni belgilang — davomat o'quvchi ilovasida real vaqtda yangilanadi.",
+            "Har bir o'quvchiga intizom, uyga vazifa va faollik baholarini bering.",
+            "Guruh uchun dars e'lonini joylashtiring yoki materiallarni biriktiring.",
+            "Dars tugaganda uni yakunlang — baholar reytingga faqat yakunlanganda qo'shiladi, shunday qilib hamma uchun adolatli bo'ladi."
+          ],
+          "deepLink": "/lessons",
+          "deepLinkLabel": "\"Darslar\" bo'limini ochish",
+          "video": true
+        },
+        {
+          "id": "materials",
+          "title": "7. Materiallarni ulashing",
+          "summary": "Fayllarni jamoangiz va o'quvchilar haqiqatan ham qidira oladigan papkalarda saqlang.",
+          "steps": [
+            "\"Materiallar\" bo'limini oching va kurslaringizga mos papka tuzilmasini yarating.",
+            "Fayllarni yuklang — hujjatlar, rasmlar yoki tashqi manbalarga havolalar.",
+            "Materiallarni ma'lum bir darsga biriktiring, shunda o'quvchilar ularni tegishli joyda ko'radi.",
+            "Papkalarni titkilash o'rniga faylni bir zumda topish uchun qidiruvdan foydalaning."
+          ],
+          "deepLink": "/materials",
+          "deepLinkLabel": "\"Materiallar\" bo'limini ochish",
+          "video": false
+        },
+        {
+          "id": "payments",
+          "title": "8. To'lovlar va hisob-fakturalar",
+          "summary": "Hisob-fakturalar taqvim oyiga emas, haqiqiy darslar soniga asoslanadi.",
+          "steps": [
+            "Barcha to'lov, hisob-faktura va yechib olishlarni ko'rish uchun \"To'lovlar\" bo'limidagi yagona Tranzaksiyalar bo'limini oching.",
+            "Hisob-fakturalar haqiqiy modul / darslar soni chegaralarida, muddati bilan avtomatik yaratiladi.",
+            "Hisob-faktura bo'yicha to'lovni qayd eting yoki alohida hisobni to'ldiring.",
+            "Har bir tranzaksiya toza hisobga olish uchun turkumga oid ketma-ket ID oladi (INV-, PAY-, TOPUP-, WD-).",
+            "Davr uchun har bir o'qituvchiga qancha to'lanishi kerakligini ko'rish uchun \"Ish haqi\" bo'limini oching."
+          ],
+          "deepLink": "/payments",
+          "deepLinkLabel": "\"To'lovlar\" bo'limini ochish",
+          "video": false
+        },
+        {
+          "id": "certificates",
+          "title": "9. Sertifikatlar",
+          "summary": "Sertifikat shablonini bir marta yarating va istalgan o'quvchiga bir necha soniyada bering.",
+          "steps": [
+            "\"Sertifikatlar\" bo'limini oching va shablon yarating — markazingiz brendi va kurs nomini qo'shing.",
+            "Uni to'g'ridan-to'g'ri o'quvchi profilidan yoki tugallangan kursdan bering.",
+            "O'quvchilar sertifikatlarini o'z profilidan ko'rishi va yuklab olishi mumkin."
+          ],
+          "deepLink": "/certificates",
+          "deepLinkLabel": "\"Sertifikatlar\" bo'limini ochish",
+          "video": false
+        }
+      ]
+    },
+    "student": {
+      "eyebrow": "O'quvchilar uchun qo'llanma",
+      "title": "O'quvchi sifatida CenterFlow'dan foydalanish",
+      "subtitle": "Jadvalni tekshirish, uyga vazifa bajarish va natijalaringizni ko'rish uchun kerak bo'lgan hamma narsa.",
+      "sections": [
+        {
+          "id": "getting-started",
+          "title": "1. Markazingizga qo'shiling",
+          "summary": "Markazingiz xodimlari sizga qo'shilish kodini beradi yoki sizni to'g'ridan-to'g'ri qo'shadi.",
+          "steps": [
+            "student-app.comma.uz saytiga o'ting.",
+            "Agar markazdan qo'shilish kodingiz bo'lsa, \"Kod orqali qo'shilish\"ni tanlang va uni kiriting.",
+            "Agar ota-onangiz sizni allaqachon ro'yxatdan o'tkazgan bo'lsa, ular ko'rsatgan telefon raqami orqali kiring.",
+            "Telefoningizga yuborilgan kodni tasdiqlagach, parol o'rnating.",
+            "Avatar va tilni tanlang — ingliz, rus yoki o'zbek."
+          ],
+          "deepLink": "",
+          "deepLinkLabel": "O'quvchi ilovasini ochish",
+          "video": true
+        },
+        {
+          "id": "home-tab",
+          "title": "2. \"Bosh sahifa\" bo'limi",
+          "summary": "Bosh sahifada bugun uchun muhim bo'lgan hamma narsani bir qarashda ko'rasiz.",
+          "steps": [
+            "Markazingiz jadvalga qo'shishi bilanoq bugungi va kelgusi darslarni ko'ring.",
+            "Davomat foizini tekshiring — taxmin emas, aniq Keldi / Kechikdi / Kelmadi / Sababli holati.",
+            "O'qituvchilaringiz va markazingizdan so'nggi e'lonlarni ko'ring.",
+            "To'liq ma'lumotni ochish uchun istalgan dars kartasini bosing."
+          ],
+          "deepLink": "",
+          "deepLinkLabel": "O'quvchi ilovasini ochish",
+          "video": false
+        },
+        {
+          "id": "learn-lessons",
+          "title": "3. \"Ta'lim\" bo'limidagi darslar",
+          "summary": "O'tgan va kelgusi har bir dars — mavzu, reja va materiallar bilan.",
+          "steps": [
+            "\"Ta'lim\" bo'limini oching va \"Darslar\"ni tanlang.",
+            "Mavzu, reja va biriktirilgan materiallarni ko'rish uchun darsni bosing.",
+            "O'tgan darslar sizning davomatingiz va olgan baholaringizni ko'rsatadi.",
+            "O'qituvchingiz joylashtirgan darsga oid e'lonlarga e'tibor bering."
+          ],
+          "deepLink": "",
+          "deepLinkLabel": "O'quvchi ilovasini ochish",
+          "video": false
+        },
+        {
+          "id": "homework",
+          "title": "4. Uyga vazifa topshirish",
+          "summary": "Ishingizni topshiring va intizom, uyga vazifa hamda faollik baholarini kuzating.",
+          "steps": [
+            "Sizga berilgan barcha vazifalarni ko'rish uchun \"Ta'lim\" → \"Uyga vazifalar\"ni oching.",
+            "Javobingizni biriktiring — matn, rasm yoki fayl.",
+            "Dars yakunlanishidan oldin topshiring; baholar o'qituvchingiz darsni yakunlaganda beriladi.",
+            "Baholaringiz va ular reytingdagi o'rningizga qanday ta'sir qilishini tekshirib turing."
+          ],
+          "deepLink": "",
+          "deepLinkLabel": "O'quvchi ilovasini ochish",
+          "video": true
+        },
+        {
+          "id": "extra-lessons",
+          "title": "5. Qo'shimcha darslar so'rash",
+          "summary": "Qo'shimcha yordam kerakmi? To'g'ridan-to'g'ri dars so'rang.",
+          "steps": [
+            "\"Ta'lim\" → \"Qo'shimcha darslar\"ni oching.",
+            "O'qituvchi va vaqtni tanlang, so'rovingizni yuboring.",
+            "Agar mosroq bo'lsa, asosiy o'qituvchingiz sizni yordamchi o'qituvchiga yo'naltirishi mumkin.",
+            "O'qituvchi so'rovni qabul qilgan yoki rad etganida sizga xabar keladi."
+          ],
+          "deepLink": "",
+          "deepLinkLabel": "O'quvchi ilovasini ochish",
+          "video": false
+        },
+        {
+          "id": "messages",
+          "title": "6. Chat va e'lonlar",
+          "summary": "O'qituvchilaringiz va guruhingiz bilan to'g'ridan-to'g'ri yozishing.",
+          "steps": [
+            "Suhbatlaringizni ko'rish uchun \"Xabarlar\" bo'limini oching.",
+            "O'qituvchiga to'g'ridan-to'g'ri yozing yoki guruh chatiga joylashtiring.",
+            "Markaz bo'yicha umumiy e'lonlar va darsga oid postlar avtomatik ko'rinadi."
+          ],
+          "deepLink": "",
+          "deepLinkLabel": "O'quvchi ilovasini ochish",
+          "video": false
+        },
+        {
+          "id": "profile-leaderboard",
+          "title": "7. Profil, XP va reyting",
+          "summary": "Rivojlanishingizni va reytingdagi o'rningizni kuzating.",
+          "steps": [
+            "Bio, yutuqlaringiz va olgan sertifikatlaringizni ko'rish uchun \"Profil\"ni oching.",
+            "Har bir intizom, uyga vazifa va faollik bahosi XP'ingizga adolatli ta'sir qiladi.",
+            "Guruh va markaz bo'yicha o'rningizni ko'rish uchun Bosh sahifadan reytingni oching.",
+            "Baholar faqat dars yakunlangandan keyin beriladi, shuning uchun reyting hamma uchun adolatli bo'lib qoladi."
+          ],
+          "deepLink": "",
+          "deepLinkLabel": "O'quvchi ilovasini ochish",
+          "video": false
+        }
+      ]
+    }
+  }
+}
